@@ -1,3 +1,4 @@
+print('----- DOBRO, TRIPLO, RAIZ QUADRADA E CÚBICA -----')
 n = float(input('Digite um número: '))
 
 print(f'''O dobro é {n * 2}

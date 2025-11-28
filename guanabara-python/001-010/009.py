@@ -1,3 +1,4 @@
+print('----- TABOADA -----')
 num_multiplicado = int(input('Qual número você quer a taboada? '))
 
 for i in range(1, 11):

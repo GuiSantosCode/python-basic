@@ -1,3 +1,4 @@
+print('----- TIPOS -----')
 n = input('Digite algo: ')
 
 print(f'''É de que tipo? {type(n)}
