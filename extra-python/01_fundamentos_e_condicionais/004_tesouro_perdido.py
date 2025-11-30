@@ -16,10 +16,10 @@ print('\nVocê tem 2 tentativas!')
 while tentativas < 2:
     numero_usuario = int(input('Escolha um local: '))
     if numero_usuario == numero_secreto:
-        numero_secreto -= 1
-        print(f'\nVocê encontrou o tesouro na {mapa[numero_secreto]}! Parabéns!')
+        local_tesouro = numero_secreto - 1
+        print(f'\nVocê encontrou o tesouro na {mapa[local_tesourocls]}! Parabéns!')
         tesouro_encontrado = True
-        tentativas += 2
+        break
     else: print('\nÚltima tentativa!')
     tentativas += 1
 
