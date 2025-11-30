@@ -17,7 +17,7 @@ while tentativas < 2:
     numero_usuario = int(input('Escolha um local: '))
     if numero_usuario == numero_secreto:
         local_tesouro = numero_secreto - 1
-        print(f'\nVocê encontrou o tesouro na {mapa[local_tesourocls]}! Parabéns!')
+        print(f'\nVocê encontrou o tesouro na {mapa[local_tesouro]}! Parabéns!')
         tesouro_encontrado = True
         break
     else: print('\nÚltima tentativa!')
@@ -27,4 +27,3 @@ if tesouro_encontrado == False:
     print('\nVocê não é pirata, está mais pra papagaio! 🦜')
 else:
     print('Você é um verdadeiro pirata! ☠️')
-
