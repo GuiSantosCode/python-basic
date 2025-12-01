@@ -1,3 +1,5 @@
+#(if/elif/else)
+
 print('RANK DE HERÓI!!!')
 
 xp = int(input('Quanto de xp seu herói tem? '))
@@ -20,7 +22,3 @@ elif xp < 10000:
     print('Diamante!')
 else:
     print('Mestre!')
-
-
-
-

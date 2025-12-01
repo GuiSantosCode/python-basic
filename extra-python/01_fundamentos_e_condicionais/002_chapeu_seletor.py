@@ -1,3 +1,5 @@
+#(if/elif/else + import random)
+
 print('------ Hogwarts: Chapéu Seletor ------')
 
 import random

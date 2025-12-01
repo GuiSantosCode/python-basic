@@ -1,3 +1,5 @@
+#while + import time
+
 print('------ Lançamento de Foguete! ------')
 
 import time

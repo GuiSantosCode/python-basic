@@ -1,3 +1,5 @@
+#(for + listas + break)
+
 print('------ O Tesouro Perdido do Pirata 🏴‍☠️  ------')
 
 continuar = (input('Aperte qualquer tecla para continuar: '))
