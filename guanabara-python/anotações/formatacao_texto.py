@@ -40,6 +40,9 @@ frase.find('deo')
     
 frase.find('android')
     caso android nao esteja na frase retorna -1
+    
+frase.rfind('a')
+    procura a posicao do 'a' de trás pra frente
 
 'curso' in frase 
     se tiver curso na frase retorna true
@@ -80,6 +83,7 @@ DIVISAO--
  
 frase.split()
     cria um indexador(indice) pra cada palavra da frase
+    usar [-1], [-2]... conta de trás pra frente
     
     
     
