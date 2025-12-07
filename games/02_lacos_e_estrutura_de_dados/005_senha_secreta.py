@@ -1,6 +1,6 @@
 #(while True + break + validacao)
 
-print('------ Senha Secreta da Base 👽 ------')
+print('\n------ Senha Secreta da Base 👽 ------\n')
 
 correct_password = "area51"
 

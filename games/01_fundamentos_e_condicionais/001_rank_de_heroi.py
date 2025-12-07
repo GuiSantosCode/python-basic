@@ -1,6 +1,6 @@
 #(if/elif/else)
 
-print('RANK DE HERÓI!!!')
+print('\nRANK DE HERÓI!!!\n')
 
 xp = int(input('Quanto de xp seu herói tem? '))
 

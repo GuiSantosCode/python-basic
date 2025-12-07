@@ -1,6 +1,6 @@
 #while + import time
 
-print('------ Lançamento de Foguete! ------')
+print('\n------ Lançamento de Foguete! ------\n')
 
 import time
 

@@ -1,4 +1,4 @@
-print('------ Primeiro e último nome ------')
+print('\n------ Primeiro e último nome ------\n')
 
 nome = (input('Digite seu nome: '))
 

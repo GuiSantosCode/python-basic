@@ -1,6 +1,6 @@
 #(if/elif/else + import random)
 
-print('------ Hogwarts: Chapéu Seletor ------')
+print('\n------ Hogwarts: Chapéu Seletor ------\n')
 
 import random
 

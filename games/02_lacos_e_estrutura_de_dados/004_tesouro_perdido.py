@@ -1,6 +1,6 @@
 #(for + listas + break)
 
-print('------ O Tesouro Perdido do Pirata 🏴‍☠️  ------')
+print('\n------ O Tesouro Perdido do Pirata 🏴‍☠️  ------\n')
 
 continuar = (input('Aperte qualquer tecla para continuar: '))
 
