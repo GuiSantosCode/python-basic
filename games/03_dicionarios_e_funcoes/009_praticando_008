@@ -1,0 +1,19 @@
+lista_de_jogos = [
+    {'Jogo': 'Horizon Zero Dawn',
+     'Gênero': 'Ação e Aventura',
+     'Nota': 8.0},
+    
+    {'Jogo': 'Resident Evil 4',
+     'Gênero': 'Survivor Horror e Ação',
+     'Nota': 9.5},
+    
+    {'Jogo': 'Red Dead Redemption 2',
+     'Gênero': 'Ação em Mundo Aberto',
+     'Nota': 10.0}
+    ]
+
+for jogos in lista_de_jogos:
+    jogo = jogos['Jogo']
+    genero = jogos['Gênero']
+    nota = jogos['Nota']
+    print(f'Jogo: {jogo}  |  Gênero: {genero}  |  Nota: {nota}')
