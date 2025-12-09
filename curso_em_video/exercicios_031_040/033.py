@@ -1,3 +1,5 @@
+print('------ Menor e Maior Número ------')
+
 num = int(input('Digite um número: '))
 num_maior = num
 num_menor = num

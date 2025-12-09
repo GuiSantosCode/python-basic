@@ -1,3 +1,5 @@
+print('------ Preço por distância ------')
+
 distancia_viagem = int(input('Qual a distância da sua viagem? '))
 
 if distancia_viagem <= 200:
