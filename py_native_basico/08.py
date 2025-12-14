@@ -1,7 +1,6 @@
-i = 1
+print('Exercise 8: Print the following pattern')
 
-for i in range(5):
-    print(i + 1) 
-    i += 1
-    i.append(i)
-
+for num in range(6):
+    for i in range(num):
+        print(num, end = '')
+    print('')

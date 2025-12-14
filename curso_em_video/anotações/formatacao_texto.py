@@ -87,8 +87,15 @@ frase.split()
     
     
     
-JUNCAO--
+JUNCAO--    
 
 '-'.join(frase)
     adiciona - entre as palavras
+
+SLICING--
+
+cor = "cor"
+invertida = cor[::-1]
+
+print(invertida) # Saída: roc
 '''
