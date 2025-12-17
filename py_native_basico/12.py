@@ -1,0 +1,1 @@
+#renda ate 10.000 NÃO paga impostos
