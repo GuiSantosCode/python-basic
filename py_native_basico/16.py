@@ -1,3 +1,5 @@
+print('Exercício 16: Verificar Número Palíndromo')
+
 def palindromo(num):
     if str(num) == str(num)[::-1]:
         return 'É palíndromo!'

@@ -1,3 +1,5 @@
+print('------ Categoria de natação! ------')
+
 import datetime
 
 ano_atual = (datetime.datetime.now().year)
