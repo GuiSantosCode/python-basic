@@ -54,6 +54,9 @@ TRANSFORMACAO--
 frase.replace('Python','Android')
     se tiver python na frase, troca por android
     
+frase.replace(' ', '')
+    remove todos os espaços vazios
+    
 frase.upper()
     transforma a frase toda em maiusculo
     
