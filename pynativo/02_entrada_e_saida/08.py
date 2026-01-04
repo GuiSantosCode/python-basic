@@ -1,0 +1,1 @@
+print('Exercício 8: Formatar variáveis usando string.format()o método')
