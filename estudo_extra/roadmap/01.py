@@ -3,10 +3,10 @@
 
     Lógica de programação
     - Fundamentos de Python(5 pilares)
-        - Variáveis
-        - Controle de fluxo
-        - Funções
-        - Coleções
+        - Variáveis = True
+        - Controle de fluxo = Progress
+        - Funções = Progress
+        - Coleções = Progress
         - Classes(POO) - Programação Orientada a Objetos
 
     - Conceitos de IA
