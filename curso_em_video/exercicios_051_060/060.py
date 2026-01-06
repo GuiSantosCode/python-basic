@@ -1,8 +1,7 @@
 print('------ Fatorial ------')
 
-numero = int(input('Digite um número: '))
-fatorial = numero
-multiplicador = numero - 1
+fatorial = int(input('Digite um número: '))
+multiplicador = fatorial - 1
 
 while multiplicador > 0:
     fatorial *= multiplicador
