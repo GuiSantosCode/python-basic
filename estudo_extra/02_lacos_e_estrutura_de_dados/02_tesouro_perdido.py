@@ -22,10 +22,11 @@ while tentativas < 2:
         print(f'\nVocê encontrou o tesouro na {mapa[local_tesouro]}! Parabéns!')
         tesouro_encontrado = True
         break
-    else: print('\nÚltima tentativa!')
-    tentativas += 1
+    else: 
+        print('\nÚltima tentativa!')
+        tentativas += 1
 
 if tesouro_encontrado == False:
     print('\nVocê não é pirata, está mais pra papagaio! 🦜')
 else:
-    print('Você é um verdadeiro pirata! ☠️')
+    print('\nVocê é um verdadeiro pirata! ☠️')
