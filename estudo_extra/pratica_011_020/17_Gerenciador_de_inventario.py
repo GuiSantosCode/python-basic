@@ -5,10 +5,10 @@ bau = [{'trigo': 0,
 
 continuar = ''
 
-
 # Para acessar um item do dicionário, precisamos utilizar bau[0] para acessar o dicionário,
 #       depois [item] para encontra-lo. ex: bau[0]['trigo], no nosso algoritmo o 'trigo' está
-#               dentro da váriavel 'item'.
+#               dentro da váriavel 'item', a lista poderia ter mais dicionários, e ai sim
+#                       utilizariamos a lógica do índice obrigatóriamente.
 while continuar != 'sair':
         item = input('Digite um item pra adicionar ao baú: ')
         if item in bau[0]:

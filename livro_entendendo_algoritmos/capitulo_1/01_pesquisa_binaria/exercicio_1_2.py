@@ -1,7 +1,8 @@
 print('''
 EXERCÍCIO: 1.2
 Suponha que você duplique o tamanho da lista. Qual seria o número máximo de 
-etapas que você levaria para encontrar o nome desejado?     
+etapas que você levaria para encontrar o nome desejado?   
+Resposta: 8  
 ''')
 
 lista_nomes = 128 * 2 # Duplicando a lista para resolução do exercício

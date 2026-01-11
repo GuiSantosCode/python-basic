@@ -2,7 +2,8 @@ print('''
 EXERCÍCIO: 1.1
 Suponha que você tenha uma lista com 128 nomes e esteja
 fazendo uma pesquisa binária. Qual seria o número máximo de
-etapas que você levaria para encontrar o nome desejado?      
+etapas que você levaria para encontrar o nome desejado?    
+Resposta: 7  
 ''')
 
 lista_nomes = 128
