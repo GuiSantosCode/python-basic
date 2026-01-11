@@ -1,3 +1,5 @@
+print('------ Febonacci ------')
+
 n = int(input('Quantos termos você quer adicionar? '))
 t1, t2 = 0, 1
 i = 0

@@ -1,6 +1,10 @@
+print('--- Mochila pra batalha ---')
+
 obrigatorios = ['Lanterna', 'Walkie_talkie', 'Taco de beisebol', 'Molotov']
 
 mochila = [] 
+
+print('Digite sair quando terminar!')
 
 while True:
     novo_item = input('Qual item você quer adicionar a mochila? ')
