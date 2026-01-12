@@ -1,4 +1,4 @@
-print('------ Flag ------')
+print('------ Flag: ex02 ------')
 
 continuar = 's'
 numero = 0

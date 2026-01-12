@@ -1,4 +1,4 @@
-print('------ Flag ------')
+print('------ Flag: ex01 ------')
 
 numero = 0
 qntd_numeros = 0
