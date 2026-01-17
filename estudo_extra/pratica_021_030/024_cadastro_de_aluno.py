@@ -1,3 +1,5 @@
+print('------ Cadastro de aluno -----')
+
 def cadastrar_aluno():
     nome = input('Digite seu nome: ')
     
