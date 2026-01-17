@@ -1,4 +1,4 @@
-#Pessoa usando as ferramentas
+#Uso de ferramentas
 from numeros import ler_numeros, analisar_numeros
 
 def main():
