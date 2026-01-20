@@ -6,7 +6,7 @@ print('')
 
 lista = []
 
-for i in range(5):
+for i in range(10):
     valor = float(input('Digite um valor: '))
     lista.append(valor)
 
@@ -15,7 +15,8 @@ lista.sort()
 for pos, item in enumerate(lista, start=1):
     if pos == 1:
         print(f'[red] {pos}° - {item} [/red]', 'Menor valor!')
-    elif pos == 5:
+    elif pos == 10:
         print(f'[green] {pos}° - {item} [/green]', 'Maior valor!')
     else:
         print(f'{pos}° - {item}')
+print(lista)
