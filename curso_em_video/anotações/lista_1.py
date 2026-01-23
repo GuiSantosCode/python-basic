@@ -28,6 +28,7 @@ valores = [8, 2, 5, 4, 9, 3, 0]
 valores.sort()                   # Ordena de forma crescente
 valores.sort(reverse=True)       # Ordena de forma decrescente
 len(valores)                     # Tamanho da lista
+valores_decrescente = sorted(valores, reverse=True) # Para guardar em uma váriavel
 
 # 6. PRÁTICA E LAÇOS
 num = [2, 5, 9, 1]

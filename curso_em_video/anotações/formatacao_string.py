@@ -7,7 +7,7 @@ observação: frase.capitalize()
 
 formatando no f'{}':
      numero = 1500
-     print(f'{numeros:>6.2f}) == print(f'{numeros: alinhamento . quantidade precisão tipo}')
+     print(f'{numeros:>6.2f}) == print(f'{numeros: alinhamento, quantidade. precisão tipo}')
      print(f'{numeros:.2f}')
         saida sendo numeros == 5:
             >5.00
