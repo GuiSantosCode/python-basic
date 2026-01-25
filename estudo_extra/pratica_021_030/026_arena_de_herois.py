@@ -26,11 +26,11 @@ for heroi in guilda:
     print('')
 print(f'=========================================================')
 
-# Quantos personagens foram criados? 
+# Quantos heróis foram criados? 
 
 print(f'\nPersonagens criados: {len(guilda)}')
 
-# O personagem com maior ataque?
+# O heróis com maior ataque?
 
 maior_ataque = guilda[0][3]
 
@@ -39,26 +39,36 @@ for heroi in guilda:
         maior_ataque = heroi[3]
         
 print(f'\nO maior ataque da guilda é: {maior_ataque}')
-print(f'\nOs heróis com {maior_ataque} de ataque são: | ', end='')
+
+# Heróis com maior ataque?
+
+herois_maior_ataque = []
 
 for heroi in guilda:
     if heroi[3] == maior_ataque:
-        print(f'{heroi[0]}', end=' | ')
+        herois_maior_ataque.append(heroi[0])
+
+print(f'Os heróis com maior ataque são: {herois_maior_ataque}')
     
-# Personagem com menor vida? 
+# Menor vida? 
 
 menor_vida = guilda[0][2]
 
 for heroi in guilda:
     if heroi[2] < menor_vida:
         menor_vida = heroi[2]
+print(f'\nA menor vida da guilda de heróis é: {menor_vida}')
 
-print(f'\n\nA menor vida da guilda é: {menor_vida}')
-print(f'\nOs heróis com {menor_vida} de vida são: | ', end='')
+# Heróis com menor vida?
+
+herois_menor_vida = []
 
 for heroi in guilda:
     if heroi[2] == menor_vida:
-        print(f'{heroi[0]}',end=' | ')
+        herois_menor_vida.append(heroi[0])
+
+print(f'\nOs heróis com {menor_vida} de vida são: {herois_menor_vida}')
+
 
 # A média de ataque da equipe
 
