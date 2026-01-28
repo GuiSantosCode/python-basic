@@ -8,9 +8,11 @@ print('=' * tam)
 # Lista final de heróis e seus atributos
 guilda = []
 
+
 # Quantidade de heróis que serão adicionados a guilda
 qntd_heroi = int(input('Quantos heróis você quer adicionar a sua guilda? '))
 os.system('cls' if os.name == 'nt' else 'clear')
+
 
 # Loop que vai adicionar os heróis
 for i in range(qntd_heroi):
@@ -24,7 +26,8 @@ for i in range(qntd_heroi):
     }
     guilda.append(heroi) 
     os.system('cls' if os.name =='nt' else 'clear')
-    
+
+
 # Lista dos heróis usando {} dentro de uma f string
 print(f"{'Cadastro de Heróis':^{tam}}")
 print(f'=' * tam)
@@ -33,6 +36,7 @@ print(f'=' * tam)
 
 for heroi in guilda:
     print(f"{heroi['nome']:<13} {heroi['classe']:<13} {heroi['vida']:<13} {heroi['ataque']:<13}")
+
     
 # Média dinâmica de ataque da guilda
 media = sum(heroi['ataque'] for heroi in guilda) / len(guilda)
