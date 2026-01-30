@@ -1,18 +1,20 @@
 import os
 
-tam = 55
+tam = 60
 print('=' * tam)
 print(f"{'Cadastro de heróis':^{tam}}")
 print('=' * tam)
 
-# Lista final de heróis e seus atributos
+# LISTA DE HERÓIS
 guilda = []
 
-# Quantidade de heróis que serão adicionados a guilda
+
+# QUANTIDADE DE HERÓIS
 qntd_heroi = int(input('Quantos heróis você quer adicionar a sua guilda? '))
 os.system('cls' if os.name == 'nt' else 'clear')
 
-# Loop que vai adicionar os heróis
+
+# ADICIONANDO HERÓIS
 for i in range(qntd_heroi):
     print(f'{i + 1}° Herói')
     print()
@@ -25,7 +27,8 @@ for i in range(qntd_heroi):
     guilda.append(heroi) 
     os.system('cls' if os.name =='nt' else 'clear')
     
-# Lista dos heróis usando {} dentro de uma f string
+    
+# LISTAGEM DOS HERÓIS
 print(f"{'Cadastro de Heróis':^{tam}}")
 print(f'=' * tam)
 print(f"{'NOME':<13} {'CLASSE':<13} {'VIDA':<13} {'ATAQUE':<13}")
@@ -33,11 +36,45 @@ print(f'=' * tam)
 
 for heroi in guilda:
     print(f"{heroi['nome']:<13} {heroi['classe']:<13} {heroi['vida']:<13} {heroi['ataque']:<13}")
+    print(f'=' * tam)
     
-# Média dinâmica de ataque da guilda
+    
+# MÉDIA DE ATAQUE DOS HERÓIS
 media = sum(heroi['ataque'] for heroi in guilda) / len(guilda)
 
 print('=' * tam)
 print(f'A média de ataque da equipe é: {media}')
+print('=' * tam)
 
-# Continua...
+
+# QUANTIDADE DE HERÓIS CRIADOS
+print(f'=' * tam)
+print(f'A quantidade de heróis criadas foi: {len(guilda)}')
+print(f'=' * tam)
+
+
+
+# MAIOR ATAQUE DA GUILDA
+maior_ataque = max(heroi['ataque'] for heroi in guilda)
+print(f'=' * tam)
+print(f'O maior ataque da guilda é: {maior_ataque}')
+print(f'=' * tam)
+
+
+# HERÓIS COM MAIOR ATAQUE
+herois_maior_ataque = [heroi['nome'] for heroi in guilda if heroi['ataque'] == maior_ataque]
+print(f'=' * tam)
+print(f'Os heróis com maior ataque são: {herois_maior_ataque}')
+print(f'=' * tam)
+
+# MENOR VIDA DA GUILDA
+menor_vida = min(heroi['vida'] for heroi in guilda)
+print(f'=' * tam)
+print(f'A menor vida da guilda é: {menor_vida}')
+print(f'=' * tam)
+
+# HERÓIS COM MENOR VIDA
+herois_menor_vida = [heroi['nome'] for heroi in guilda if heroi['vida'] == menor_vida]
+print(f'=' * tam)
+print(f'Os heróis com menor vida são: {herois_menor_vida}')
+print(f'=' * tam)

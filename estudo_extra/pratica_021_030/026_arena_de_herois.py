@@ -30,7 +30,7 @@ print(f'=========================================================')
 
 print(f'\nPersonagens criados: {len(guilda)}')
 
-# O heróis com maior ataque?
+# O herói com maior ataque?
 
 maior_ataque = guilda[0][3]
 
