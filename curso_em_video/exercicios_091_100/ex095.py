@@ -1,6 +1,6 @@
-import os
 print('--- Dicionário: Aproveitamento do jogador ---')
 
+import os
 # Entrada de dados
 lista = []
 

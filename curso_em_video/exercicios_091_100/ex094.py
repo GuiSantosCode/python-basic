@@ -1,6 +1,6 @@
-import os
 print('--- Dicionário em lista ---')
 
+import os
 # COLETA DE DADOS
 lista = []
 mulheres = []
