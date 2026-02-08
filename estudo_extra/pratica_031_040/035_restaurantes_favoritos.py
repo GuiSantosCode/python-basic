@@ -4,9 +4,9 @@ import os
 def tabela(txt):
     print()
     print()
-    print('-' * 100)
+    print('-' * 130)
     print(txt)
-    print('-' * 100)
+    print('-' * 130)
 
 restaurantes = []
 
@@ -31,8 +31,9 @@ for i in range(qntd):
     restaurante['lista de pratos'] = pratos
     restaurantes.append(restaurante.copy())
 
-tabela(f"{'RESTAURANTE':<25} {'QUANTIDADE DE PRATOS':<25} {'CARDÁPIO':<25}")
+tabela(f"{'RESTAURANTE':<25} {'TIPO DE COMIDA':<25} {'CARDÁPIO':<25}")
 
 # Restaurantes cadastrados
 for restaurante in restaurantes:
-    print(f"{restaurante['nome']:<25} {len(restaurante['lista de pratos']):<25} {str(restaurante['lista de pratos']):<25}")
+    pratos = ', '.join(restaurante['lista de pratos'])
+    print(f"{restaurante['nome']:<25} {restaurante['tipo']:<25} {pratos:<25}")
