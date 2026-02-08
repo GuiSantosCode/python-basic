@@ -1,5 +1,5 @@
 '''
-Exercício 1 – Dicionários em Python
+Exercício 1, 2 e 3 – Fundamentos de Dicionários
 
 Objetivo:
 Praticar a criação e manipulação de dicionários usando chaves e valores.
@@ -10,7 +10,7 @@ O programa:
 - Atualiza e adiciona informações
 - Permite buscar uma chave informada pelo usuário
 '''
-
+print('--- Prática dicionário: 1, 2, 3 ---')
 # Step 1
 dicionario = {
     'nome':'Guilherme',
