@@ -1,4 +1,4 @@
-print('--- Dicionário: Aproveitamento do jogador ---')
+print('--- Dicionário: Aproveitamento do jogador v.2 ---')
 
 import os
 # Entrada de dados
