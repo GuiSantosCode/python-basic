@@ -1,0 +1,31 @@
+ORGANIZAR FACULDADE
+
+
+fazer sistema de checklist para cada arquivo, saber quantos arquivos tem por periodo:
+
+    sistemas de bolinhas com cores para marcar os arquivos estudados e os não estudados
+
+    dividir o quadro por temas e topicos para uma melhor visualização
+
+    banco de dados da data de cada arquivo estudado 
+        saber tempo gasto em cada topico
+
+    barra de progresso do semestre ou até mesmo de cada tema
+
+------------------------------------------------------------------------------------------------------------------------
+fazer sistema de checklist de dia estudado:
+
+    com bolinhas para marcar os dias estudados e os não estudados
+        bolinhas com sistema de cores
+        opção de clicar no dia faltado e ver o motivo
+
+    banco de dados de faltas
+
+    com uma barrra de progresso que marca porcentagem de assuidez
+
+    informação de dias estudados do total de dias ate a data atual - ex: 10/15
+
+problemas:
+    qual biblioteca visual usar?
+    qual sistema de banco de dados usar?
+    
